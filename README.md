@@ -75,7 +75,7 @@ python3 src/llm_transpile_with_compilation_fixing.py Benchmark/large_set/
 It iterates the folder `Benchmark/large_set/large_set/preprocessed_sf` and transpiles the functions placed into individual C files. The output transpiled Rust functions are saved into individual Rust files and placed into the folder `Benchmark/large_set/large_set/rust_qwen2_5_coder_32b_sf_withfixing`. In addition, the metrics related to the transpilation process are saved into the file `Benchmark/large_set/large_set/rust_qwen2_5_coder_32b_sf_withfixing/transpilation.log`
 
 ## 1.5 Benchmark
-Download the benchmark from `XXXXX` and place it into the root directory of github repo. Under `Benchmark` directory, there are three folders:
+Download the benchmark from `https://zenodo.org/records/15249151` and place it into the root directory of github repo. Under `Benchmark` directory, there are three folders:
 
 - `microbenchmark_set`: contains C and corresponding Rust functions transpiled with 9 different LLMs that is used for preliminary experiment.<br />
 - `large_set`: contains 15,503 C functions coming from 65 programs and corresponding Rust functions transpiled with the chosen LLM.<br />
